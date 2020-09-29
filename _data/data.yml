@@ -33,15 +33,15 @@ sidebar:
     #  - item: Cooking
     #    link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
 education:
     - degree: Master of Cybersecurity Engineering
       university: Auburn University
@@ -102,7 +102,7 @@ experiences:
         - Performed open-source intelligence research on integrated missile defense systems used by the United States Army.
         - Attended design meetings to build a low power and visibility reconnaissance pod with mesh network capabilities.
         - Performed open-source intelligence research on friendly tracking networks and attempted to find weak points in the existing infrastructure.
-    - role: Co-Op
+    - role: Software Engineering Co-Op
       time: August to December 2016 - May to August 2017
       company: Rheem Manufacturing Co.
       details: |
