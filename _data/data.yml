@@ -193,44 +193,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python 
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: IDA
+        level: 90%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Ghidra
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-# skills:
-#     title: Skills &amp; Proficiency
-
-#     toolset:
-#       - name: Python 
-#         level: 100%
-
-#       - name: IDA
-#         level: 90%
-
-#       - name: Ghidra
-#         level: 85%
         
-#       - name: C
-#         level: 80%
+      - name: C
+        level: 80%
 
-#       - name: x86 and x86-64 Assembly
-#         level: 80%
+      - name: x86 and x86-64 Assembly
+        level: 80%
 
-#     - name: Volatility and Pmem Suite
-#         level: 75%
+    - name: Volatility and Pmem Suite
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
