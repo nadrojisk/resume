@@ -1,26 +1,20 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Jordan Sosnowski
+    tagline: Graduate Cybersecurity Student
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
+    email: jordan.sosnowski@pm.me
+    website: blog.nadrojisk.com #do not add http://
+    linkedin: jordan-sosnowski-3157a449
+    github: nadrojisk
+    gitlab: nadrojisk
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@nadrojisk'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -29,21 +23,15 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+    #interests:
+    #  - item: Climbing
+    #    link:
 
-      - idiom: Spanish
-        level: Professional
+    #  - item: Snowboarding
+    #    link:
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #  - item: Cooking
+    #    link:
 
 career-profile:
     title: Career Profile
@@ -55,9 +43,9 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Master of Cybersecurity Engineering
+      university: Auburn University
+      time: 2019 - 2021
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,9 +54,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bachelor of Software Engineering
+      university: Auburn University
+      time: 2015 - 2019
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,43 +66,58 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Graduate Intern in the Cyber Toaster incident Response Track
+      time: June 2020 - August 2020
+      company: Los Alamos National Laboratory 
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Attended classes covering the fundamentals of malware analysis including static and dynamic analysis, Windows fundamentals, common malware persistence mechanisms, x86 Assembly, anti-reverse engineering techniques, malicious office documents, PDFs, and JavaScript.
+        - Attended classes discussing memory forensics fundamentals for primarily Windows systems and used memory analysis tools such as Volatility and the Pmem suite.
+        - Attended classes focused on network archeology and learned techniques to decode custom protocols captured during packet analysis, to recognize encrypted traffic.
+        - Participated in a mock incident as a responder. I analyzed PCAPs, disk images, and memory dumps for indicators of compromise. I reversed engineered malware samples and identified artifacts that could be used to determine if other computers had been compromised.
+    - role: Intern and GRA
+      time: May 2019 - May 2020
+      company: Oak Ridge National Laboratory
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Developed an efficient and accurate supervised machine learning pipeline to automatically reverse engineer information from frames transmitted over controller area networks.
+        - Created an extension of the ACTT framework that used heuristics to classify signal categories on controller area networks.
+        - Used a test-driven development software process to ensure risk-free code with all-encompassing test routines.
+        - Gave a presentation at the 2019 Summer Student Convivium discussing the progress I made on the ACTT project during my time as an intern.
+        - Co-authored a research paper on the ACTT algorithm which is currently under review.
+    - role: Graduate Student
+      time: August 2019 - Present
+      company: Auburn University
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Judas
+            - Developed a framework for backdooring 32-bit PE files for a class taught by Dr. Drew Springall.
+            - Injects either a “pop-up” message or a reverse shell but can easily be configured to take in arbitrary shellcode.
+            - Bypasses modern countermeasures such as address space layout randomization and data execution prevention.
+        - PythonIDS
+            - Developed an intrusion detection system using Python along with 3 other students for a class taught by Jason Cuneo.
+            - Detects the following attacks: NMAP SYN, ACK, and XMAS scans, Ettercap’s ARP poisoning, Metasploit’s ms17_010 psexec, and Responder’s LLMNR and NBT-NS spoofing.
+            - Uses Python’s multiprocessing module to increase the scan’s performance
+    - role: Undergraduate Research Assistant Student
+      time: January 2018 - May 2019
+      company: Auburn University
+      details: |
+        - Performed open-source intelligence research on integrated missile defense systems used by the United States Army.
+        - Attended design meetings to build a low power and visibility reconnaissance pod with mesh network capabilities.
+        - Performed open-source intelligence research on friendly tracking networks and attempted to find weak points in the existing infrastructure.
+    - role: Co-Op
+      time: August to December 2016 - May to Augsut 2017
+      company: Rheem Manufacturing Co.
+      details: |
+        - Developer
+            - Programmed heavily in Python, SQL, JSP/Bootstrap, and occasionally JavaScript while utilizing a proprietary SDLC that was very similar to Agile.
+            - Participated in various design meetings to gather requirements for multiple projects on Rheem’s web-based quality management system, Reliance, and developed code for said projects.
+            - Rebuilt the Production Part Approval Process (PPAP) application by streamlining the user interface, enhancing user experience while also drastically bringing down the run time and code complexity for reports for this application.
+            - Developed a process, that had never been used before at Rheem, to convert old PPAP data into a new form.
+            - Developed a script that leveraged multiple SQL queries to generate a monthly summary of supplier metrics which resulted in a 78% decrease in time to compile ratings.
+            - Developed a software system that allowed several users to collaboratively edit and approve Service Note documents which prevented said documents from getting lost and allowed all parties to provide input.
+            - Streamlined a manual contract management process and provided visibility of contract approval timelines and expiration dates.
+        - Reliance System Administrator
+            - Helped users with system-related issues.
+            - Conducted form and application training for cross-functional teams.
+            - Authorized user access to specific parts of Reliance depending on their specific clearances.
 projects:
     title: Projects
     intro: >
@@ -122,69 +125,92 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Ethical Hacking Club 
+        link: "ehc.auburn.edu"
+        tagline: |
+            - President (August 2018 to May 2020) | Mentor (May 2020 to Present)
+                - Participated in multiple Capture the Flag competitions run by various companies and universities.
+                - Taught lectures on binary reverse engineering and binary exploitation.
+                - AUCTF19
+                    - One of two club members hosting the event.
+                    - Created challenges for the cryptography, forensics, password cracking, reverse engineering, binary exploitation, and password cracking categories.
+                    - AUEHC’s first private CTF.
+                    - 20 participants with 57 challenges.
+                    - Acquired funding for the top five students to attend DEFCON 27 free of charge.
+                - AUBURNHACK’s 2020s mini-CTF
+                    - One of five club members hosting the event.
+                    - Created challenges for the reverse engineering and binary exploitation categories.
+                    - 60 participants with 37 challenges
+                - Cyber Fire Puzzles
+                    - Worked with Auburn University / Los Alamos National Laboratory Security Sciences Institute to host the event.
+                    - 45 participants.
+                - AUCTF20
+                    - One of seven club members hosting the event.
+                    - Created challenges for the reverse engineering and binary exploitation categories.
+                    - Worked with Auburn University to ensure that the CTF was publicly accessible and secure.
+                    - AUEHC’s first public CTF.
+                    - Almost 3000 participants with 81 challenges.
+                    - Acquired $300 for each of the top three students.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python 
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: IDA
+        level: 90%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: Ghidra
         level: 85%
+        
+      - name: C
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: x86 and x86-64 Assembly
+        level: 80%
+
+    - name: Volatility and Pmem Suite
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
