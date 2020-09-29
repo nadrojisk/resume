@@ -1,6 +1,6 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want an education in the main section instead of in the sidebar
 
     # Profile information
     name: Jordan Sosnowski
@@ -147,7 +147,7 @@ experiences:
 # projects:
 #     title: Projects
 #     intro: >
-#       You can list your side projects or open source libraries in this
+#       You can list your side projects or open-source libraries in this
 #       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 #     assignments:
@@ -165,7 +165,7 @@ experiences:
 
 #       - title: Delta
 #         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#         tagline: "A responsive Bootstrap one-page theme designed to help app developers promote their mobile apps"
 
 # publications:
 #     title: Publications
