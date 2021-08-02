@@ -66,6 +66,14 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Graduate Research Assistant
+      time: September 2020 - May 2021
+      company: Auburn University
+      details: |
+        - Worked on a multi-disciplinary team comprised of software engineers, artificial intelligence researchers, and cybersecurity engineers on continued development of an episodic network emulation tool.
+        - Primary work consisted of designing and implementing a secure network for remote login to allow researchers to work from home during COVID-19.
+        - During the development of the secure network I also created a few Ansible playbooks to help automate the process of creating users across all the boxes in the network.
+        - Additional work consisted of creating a user-friendly web application to generate network and host configuration files that dictates Galaxy how to create its images.
     - role: Incident Response Intern
       time: June 2020 - August 2020
       company: Los Alamos National Laboratory 
